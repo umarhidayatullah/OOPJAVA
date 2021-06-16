@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Zakat.Zakat">
+  <tabbedpane id="3f39b" binding="tabbedPane">
+    <constraints>
+      <xy x="26" y="47" width="873" height="6715"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <tabLayoutPolicy value="0"/>
+      <tabPlacement value="1"/>
+    </properties>
+    <border type="bevel-lowered" title="ZAKAT FITRAH" title-justification="2" title-position="3">
+      <font name="Droid Sans Mono" size="22" style="3"/>
+      <title-color color="-16777216"/>
+    </border>
+    <children>
+      <grid id="83acd" binding="home" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <tabbedpane title="HOME" icon="sun/tools/jconsole/resources/mbean.gif"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <enabled value="true"/>
+          <font name="Arial Black" size="16" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="54cac" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <enabled value="true"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="YouTube/mosque.png"/>
+              <text value=""/>
+              <verticalAlignment value="1"/>
+              <verticalTextPosition value="1"/>
+            </properties>
+          </component>
+          <component id="dc4c2" class="javax.swing.JEditorPane" binding="SYARATWAJIBZAKAT1EditorPane" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Comic Sans MS" size="16" style="0"/>
+              <text value="SYARAT WAJIB ZAKAT&#10;1.Beragama Islam dan merdeka &#10;2.Menemui dua waktu, yaitu di antara bulan Ramadhan dan Syawal, walaupun hanya sesaat&#10;3.Mempunyai harta yang lebih dari pada kebutuhannya sehari-hari, untuk dirinya dan orang-orang di bawah tanggungan, pada hari raya dan malamnya" noi18n="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a3002" binding="main" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <tabbedpane title="MAIN" icon="sun/awt/resources/cursors/CopyDrop32x32.gif"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="eaac" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="NAME : "/>
+            </properties>
+          </component>
+          <vspacer id="dd3a1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="40126" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </tabbedpane>
+</form>

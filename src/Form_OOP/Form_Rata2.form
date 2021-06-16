@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Form_OOP.Form_Rata2">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="25" bottom="25" right="25"/>
+    <constraints>
+      <xy x="20" y="20" width="511" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-16711681"/>
+    </properties>
+    <border type="none" title="Menghitung Hari Menuju Alam Barzah" title-justification="1" title-position="3">
+      <font name="Arial Black" size="18" style="3"/>
+      <title-color color="-16777216"/>
+    </border>
+    <children>
+      <toolbar id="b377d">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="321f3" class="javax.swing.JButton" binding="bHitung">
+            <constraints/>
+            <properties>
+              <background color="-16711681"/>
+              <text value="Hitung"/>
+            </properties>
+          </component>
+          <component id="97f49" class="javax.swing.JButton" binding="bBersih">
+            <constraints/>
+            <properties>
+              <background color="-16711681"/>
+              <text value="Bersih"/>
+            </properties>
+          </component>
+          <component id="c0d02" class="javax.swing.JButton" binding="bTutup">
+            <constraints/>
+            <properties>
+              <background color="-16711681"/>
+              <horizontalAlignment value="0"/>
+              <text value="Tutup"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <component id="f30b2" class="javax.swing.JTextField" binding="tNilai2">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="31677" class="javax.swing.JTextField" binding="tNilai1">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="80a18" class="javax.swing.JTextField" binding="tRata">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="251a3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="16" style="1"/>
+          <text value="Nilai 2"/>
+        </properties>
+      </component>
+      <component id="160fb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="16" style="1"/>
+          <text value="Nilai 1"/>
+        </properties>
+      </component>
+      <component id="751e0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bahnschrift" size="16" style="1"/>
+          <text value="Average"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
